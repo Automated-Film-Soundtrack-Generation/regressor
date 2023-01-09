@@ -26,7 +26,7 @@ for file_name in os.listdir(MUSIC_DIR):
     song_id = int(file_name.split(".")[0])
 
     if song_id > 2000:
-        print("will add support later im lazy")
+        print("Use the other CSV")
 
     else:
         file_name = MUSIC_DIR + '/' + file_name
